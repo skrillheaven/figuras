@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="figuras.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="FIGURAS GEOMETRICAS" HorizontalTextAlignment="Center" TextColor="White" FontSize="Medium"/>
+        </Frame>
+        <Button x:Name="Cuadrado" Text="CUADRADO" BackgroundColor="Aqua" Clicked="Cuadrado_Clicked"></Button>
+        <Button x:Name="Triangulo" Text="TRIANGULO" BackgroundColor="Aqua" Clicked="Triangulo_Clicked"></Button>
+        <Button x:Name="Rectangulo" Text="RECTANGULO" BackgroundColor="Aqua" Clicked="Rectangulo_Clicked"></Button>
+        <Button x:Name="Circulo" Text="CIRCULO" BackgroundColor="Aqua" Clicked="Circulo_Clicked"></Button>
+    </StackLayout>
+
+</ContentPage>
