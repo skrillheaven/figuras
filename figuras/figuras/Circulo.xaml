@@ -2,11 +2,42 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppFigGeom.Circulo">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <Grid BackgroundColor="OrangeRed">
+        <Grid Grid.Row="0" Margin="0,0,0,0">
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center" Margin="30,30" VerticalOptions="Start">
+                <Label Text="ESTAS EN CIRCULO"
+                   TextColor="White"
+                   x:Name="lblResultado"
+                   HorizontalOptions="Center"
+                   FontSize="26"/>
+                <Image Source="circulo.jpg"></Image>
+            </StackLayout>
+        </Grid>
+
+        <Grid Grid.Row="1" Margin="0,0,0,0">
+            <Entry Placeholder="Ingresa el radio "
+                   x:Name="input1"
+                   PlaceholderColor="Violet"
+                   TextColor="Blue"
+                   HorizontalOptions="FillAndExpand"
+                   FontSize="20"
+                   ></Entry>
+
+        </Grid>
+        
+
+ 
+        <Grid Grid.Row="3" Margin="20,20,20,20">
+            <StackLayout>
+                <Button Text="Calcular Area" x:Name="BtnCirculo"
+                        TextColor="Green"
+                        Background="yellow"
+                        BorderColor="Green"
+                        BorderWidth="3"
+                        CornerRadius="40"
+                        Clicked="BtnCirculo_Clicked"/>
+            </StackLayout>
+
+        </Grid>
+    </Grid>
 </ContentPage>
