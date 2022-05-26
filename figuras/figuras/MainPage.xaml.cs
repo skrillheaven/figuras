@@ -22,19 +22,19 @@ namespace figuras
 
         }
 
-        private async Task Triangulo_ClickedAsync(object sender, EventArgs e)
+        private async void Triangulo_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Triangulo());
         }
 
-        private async Task Rectangulo_Clicked(object sender, EventArgs e)
+        private async void Rectangulo_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Rectangulo());
+           // await Navigation.PushAsync(new Rectangulo());
         }
 
-        private async Task Circulo_Clicked(object sender, EventArgs e)
+        private async void Circulo_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Circulo());
+            //await Navigation.PushAsync(new Circulo());
         }
     }
 }

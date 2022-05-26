@@ -14,7 +14,6 @@ namespace AppFigGeom
     {
 
         int l;
-        int a;
         double resultado;
         public Cuadrado()
         {
@@ -24,7 +23,6 @@ namespace AppFigGeom
         private void BtnCuadrado_Clicked(object sender, EventArgs e)
         {
             l = int.Parse(input1.Text);
-            a = 0;
             resultado = Math.Pow(l, 2);
 
             lblResultado.Text = "El area es: "+resultado + "";
