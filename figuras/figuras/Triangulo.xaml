@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppFigGeom.Triangulo">
+             x:Class="AppFigGeom.Triangulo"
+             Title="Área del Triangulo">
     <Grid BackgroundColor="DarkCyan">
         <Grid Grid.Row="0" Margin="0,0,0,0">
             <StackLayout Orientation="Vertical" HorizontalOptions="Center" Margin="30,30" VerticalOptions="Start">

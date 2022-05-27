@@ -29,12 +29,12 @@ namespace figuras
 
         private async void Rectangulo_Clicked(object sender, EventArgs e)
         {
-           // await Navigation.PushAsync(new Rectangulo());
+            await Navigation.PushAsync(new Rectangulo());
         }
 
         private async void Circulo_Clicked(object sender, EventArgs e)
         {
-            //await Navigation.PushAsync(new Circulo());
+            await Navigation.PushAsync(new Circulo());
         }
     }
 }
